@@ -21,6 +21,7 @@ Clone this repository to `hexo` root folder.
 
 # Python references
 
+* python3.x
 * tinify
 * requests
 * hashlib
