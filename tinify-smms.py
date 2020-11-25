@@ -4,11 +4,11 @@
 # @Author  : Haipz Lin (haipzm@gmail.com)
 # @Link  : https://github.com/haipz/
 # @Version : 1.0.0
+import sys
+import os
 import re
 import requests
 import json
-import sys
-import os
 import hashlib
 import tinify
 
