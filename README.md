@@ -3,6 +3,8 @@
 This is a Python script to compress your local images then upload to SMMS, and then retrieve image link from SMMS, and replace into the hexo markdown files of post/page.
 It supports to cache image MD5 hash to `images.db` with JSON format, to save the API usage.
 
+This works perfertly to [hexo](https://github.com/hexojs/hexo) and [hexo-theme-next](https://github.com/next-theme/hexo-theme-next).
+
 # How to deploy
 
 Clone this repository to `hexo` root folder. 
