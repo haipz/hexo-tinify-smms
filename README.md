@@ -3,6 +3,10 @@
 This is a python script to compress your local images then upload to SMMS, and then retrieve image link from SMMS, and replace into the hexo markdown files of post/page.
 It supports to cache image MD5 hash to `images.db` with JSON format, to save the API usage.
 
+# How to deploy
+
+Clone this repository to `hexo` root folder. 
+
 # How to use
 
 1. Please go to [SMMS](https://sm.ms/), register and login.
@@ -18,7 +22,9 @@ It supports to cache image MD5 hash to `images.db` with JSON format, to save the
 * tinify
 * requests
 * hashlib
+* json
 
 # Note
 
 You could use the `deploy.sh` to make it easier for deployment.
+If you are not using `pm2` to manage your `hexo` job, please remove `pm2 restart hexo.js` from `deploy.sh`.
