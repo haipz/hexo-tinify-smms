@@ -1,6 +1,6 @@
 # hexo-tinify-smms
 
-This is a python script to compress your local images then upload to SMMS, and then retrieve image link from SMMS, and replace into the hexo markdown files of post/page.
+This is a Python script to compress your local images then upload to SMMS, and then retrieve image link from SMMS, and replace into the hexo markdown files of post/page.
 It supports to cache image MD5 hash to `images.db` with JSON format, to save the API usage.
 
 # How to deploy
