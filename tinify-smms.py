@@ -10,9 +10,7 @@ import json
 import sys
 import os
 import hashlib
-import base64
 import tinify
-from urllib import parse
 
 class ImageUploader():
   def __init__(self,hexo_source_dir,next_source_dir):
