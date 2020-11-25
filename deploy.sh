@@ -2,5 +2,5 @@
 
 hexo clean
 hexo g
-python tiny_smms.py
+python tinify_smms.py
 pm2 restart hexo.js
