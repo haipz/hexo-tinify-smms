@@ -26,6 +26,11 @@ Clone this repository to `hexo` root folder.
 * hashlib
 * json
 
+# Free volume
+
+SMMS: 5GB disk
+Tinify: 500 images per month
+
 # Note
 
 You could use the `deploy.sh` to make it easier for deployment.
